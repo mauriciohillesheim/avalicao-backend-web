@@ -2,7 +2,7 @@ const express = require('express');
 const router = require('./src/routes/api');
 
 const app = express();
-const porta =3000
+
 app.use(express.json());
 
 app.use(router)
